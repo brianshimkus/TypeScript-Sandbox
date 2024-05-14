@@ -1,7 +1,6 @@
 {
 	"name": "sandbox-01",
-	"main": "index.js",
 	"scripts": {
-		"watch": "tsc --watch index"
+		"watch": "tsc --watch src/index"
 	}
 }
