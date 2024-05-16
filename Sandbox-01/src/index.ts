@@ -36,4 +36,13 @@ enum Direction2 {
 	Right = 'Right',
 }
 
-console.log(Direction2.Left)
+// Objects
+type User = {
+	id: number
+	name: string
+}
+
+const user = {
+	id: 1,
+	name: 'John',
+}
