@@ -8,6 +8,7 @@ export default function Home() {
 				fontSize={80}
 				pillShape={true}
 				textColor='purple'
+				padding={[5, 10, 20, 25]}
 			/>
 		</main>
 	)
