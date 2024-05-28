@@ -1,5 +1,8 @@
+type Color = 'red' | 'blue' | 'green' | 'purple' | 'yellow'
+
 type Buttonprops = {
-	backgroundColor: string
+	backgroundColor: Color
+	textColor: Color
 	fontSize: number
 	pillShape: boolean
 }
