@@ -1,7 +1,10 @@
+import React from 'react'
+
 type Buttonprops = {
-	style: React.CSSProperties
+	setCount: React.Dispatch<React.SetStateAction<number>>
 }
 
-export default function Button({ style }: Buttonprops) {
-	return <button style={style}>Click Me</button>
+export default function Button({ setCount }: Buttonprops) {
+	setCount(1)
+	return <button>Click me</button>
 }
